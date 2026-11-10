@@ -6,7 +6,6 @@ Bachelor in Computer Science, 3rd Year, at the Free University of Bolzano
 ## Table of Contents
 
 * [Application description](#application-description)
-* [Application demo](#application-demo)
 * [How the application is deployed](#how-the-application-is-deployed)
 * [Description of the pipeline for CI/CD](#description-of-the-pipeline-for-CI/CD)
     * [Pipeline stages](#pipeline-stages)
@@ -45,10 +44,6 @@ Finally, when the user has found a concert, he can book a ticket.
 The user will then be able to print the confirmation and will also receive a confirmation email for the booking. Further functionalities are supported by the web application, for example it is possible to sign in with a personal account and also to browse the concert by category and location.
 
 <br>
-
-# Application demo
-
-A demo version of the web application is available at the following address: https://concerthubapp.azurewebsites.net/. Please keep in mind that the application is deployed as a free demonstration, thus it will not be always available online.
 
 # How the application is deployed
 
@@ -128,7 +123,7 @@ As the previous stage, the first job checks the repository code out, after that 
 <img src="report/images/pull-request.png" alt="drawing" width="500"/>
 </p>
 
-After some minutes the application will be available at (https://concerthubapp.azurewebsites.net/)
+After some minutes the application will be available on Azure at `https://<app-name>.azurewebsites.net`.
 
 ## Experience with GitLab CI/CD
 
